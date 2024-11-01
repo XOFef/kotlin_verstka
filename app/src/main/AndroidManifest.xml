@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Keqing"
         tools:targetApi="31">
         <activity
+            android:name=".Profil"
+            android:exported="false" />
+        <activity
+            android:name=".Main"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity
